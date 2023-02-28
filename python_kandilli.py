@@ -69,10 +69,9 @@ for i in response.json():
 
     )
     connection2.autocommit = True
-    count = cursor.rowcount
-    #cursor.execute(query_insert, veri3)
+   
 
-print(count)
+
 
 
 
